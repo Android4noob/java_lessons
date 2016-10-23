@@ -30,6 +30,49 @@ public class DataType {
         //вычитание
         result = b - a;
         System.out.println("вычитание" + " " + result);
+
+        //применение арифметических операций с присваиванием
+
+        int w = 100;
+        System.out.println("*******************");
+        System.out.print("w += 10" + " ");
+        System.out.println("тоже самое что и  " + "w = w + 10");
+        System.out.print("результат" + " : ");
+        System.out.println(w += 10);
+        System.out.print("\n");
+        // result 110
+
+        int s = 100;
+        System.out.print("s -= 10" + " ");
+        System.out.println("тоже самое что и  " + "s = s - 10");
+        System.out.print("результат" + " : ");
+        System.out.println(s -= 10);
+        System.out.print("\n");
+        //result 90
+
+        int z = 100;
+        System.out.print("z *= 10" + " ");
+        System.out.println("тоже самое что и  " + "z = z * 10");
+        System.out.print("результат" + " : ");
+        System.out.println(z *= 10);
+        System.out.print("\n");
+        //result 1000
+
+        int c = 100;
+        System.out.print("c /= 10" + " ");
+        System.out.println("тоже самое что и  " + "c = c / 10");
+        System.out.print("результат" + " : ");
+        System.out.println(c /= 10);
+        System.out.print("\n");
+        //result 10
+
+        int v = 100;
+        System.out.print("v %= 10" + " ");
+        System.out.println("тоже самое что и  " + "v = v % 10");
+        System.out.print("результат" + " : ");
+        System.out.println(v %= 10);
+        System.out.print("\n");
+        //result 0
     }
 }
 /* home work
